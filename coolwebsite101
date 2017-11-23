@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Meta Tags for Bootstrap 4 -->
+
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<!-- Bootstrap 4 CSS -->
+
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <link rel="stylesheet" href="cool.css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
@@ -20,13 +20,14 @@
 
     <div class="row mb-5">
         <div class="btn-group" role="group" aria-label="Pick a cat">
-          <button type="button" class="btn btn-secondary Find your fit">Find your fit</button>
+          <button type="button" class="btn btn-secondary Find_your_fit">Find your fit</button>
           <button type="button" class="btn btn-secondary Location">Location</button>
           <button type="button" class="btn btn-secondary Social">Social</button>
+          <button type="button" class="btn btn-secondary Vote">Vote</button>
         </div>
     </div>
 
-    <div class="row mb-5 things" id="Find your fit">
+    <div class="row mb-5 things" id="Find_your_fit">
        
             <p>
                 Change
@@ -46,9 +47,17 @@
     <div class="row mb-5 things" id="Social">
         
             <p>
-              CHAT/FORM
+                CHAT/FORM
             </p>
+          </div>
+    </div>
+
+       <div class="row mb-5 things" id="Vote">
         
+            <p>
+                                VOTE
+            </p>
+          </div>
     </div>
 </div>
 </div>
