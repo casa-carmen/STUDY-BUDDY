@@ -19,9 +19,12 @@
     </div>
 
     <div class="row mb-5">
-        <div class="btn-group" role="group" aria-label="Pick a cat">
+        <div class="btn-group" role="group" aria-label="Choose one!">
           <button type="button" class="btn btn-secondary Find_your_fit">Find your fit</button>
-          <button type="button" class="btn btn-secondary Location">Location</button>
+          <button type="button" class="btn btn-secondary Location nav-link dropdown-toggle" id="dropdown01" data-toggle="dropdown" aria-haspopup <a class="dropdown-item"> Location</button>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>="true" aria-expanded="false">
+          
           <button type="button" class="btn btn-secondary Social">Social</button>
           <button type="button" class="btn btn-secondary Vote">Vote</button>
         </div>
@@ -30,7 +33,8 @@
     <div class="row mb-5 things" id="Find_your_fit">
        
             <p>
-                Change
+               <h2> Change </h2>
+
             </p>
         
     </div>
@@ -38,7 +42,7 @@
     <div class="row mb-5 things" id="Location">
       
             <p>
-                MAP/categories
+                <h2> Change </h2>
             </p>
         </div>
     </div>
@@ -47,7 +51,7 @@
     <div class="row mb-5 things" id="Social">
         
             <p>
-                CHAT/FORM
+               <h2> Change </h2>
             </p>
           </div>
     </div>
@@ -55,7 +59,7 @@
        <div class="row mb-5 things" id="Vote">
         
             <p>
-                                VOTE
+                          <h2> Change </h2>
             </p>
           </div>
     </div>
