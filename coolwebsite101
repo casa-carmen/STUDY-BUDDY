@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
 <link rel="stylesheet" href="main.css">
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-<script type="text/javascript" src="scripts/myscript.js"></script>
+<script type="text/javascript" src="script/coolscript.js"></script>
 </head>
 <body>
 <div class="container">
@@ -20,52 +20,35 @@
 
     <div class="row mb-5">
         <div class="btn-group" role="group" aria-label="Pick a cat">
-          <button type="button" class="btn btn-secondary Rom">Romulus</button>
-          <button type="button" class="btn btn-secondary Bailey">Bailey</button>
-          <button type="button" class="btn btn-secondary Hugo">Hugo</button>
+          <button type="button" class="btn btn-secondary Find your fit">Find your fit</button>
+          <button type="button" class="btn btn-secondary Location">Location</button>
+          <button type="button" class="btn btn-secondary Social">Social</button>
         </div>
     </div>
 
-    <div class="row mb-5 cats" id="Rom">
-        <div class="col-md-4">
-            <img class="img-fluid" src="images/rom.jpg">
-        </div>
-        <div class="col-md-8">
+    <div class="row mb-5 things" id="Find your fit">
+       
             <p>
-                Romulus usually goes by Rom, because his full name is too serious for such a silly cat.
-                Rom is a mackerel tabby. He is five years old, but he still loves to play like a kitten.
-                If you don't keep your eye on Rom, he will lick the butter right off your toast.
+                Change
             </p>
-        </div>
+        
     </div>
 
-    <div class="row mb-5 cats" id="Bailey">
-        <div class="col-md-4">
-            <img class="img-fluid" src="images/bailey.jpg">
-        </div>
-        <div class="col-md-8">
+    <div class="row mb-5 things" id="Location">
+      
             <p>
-                Bailey is a ginger and white tomcat. He is eight years old, and much more serious than Rom.
-                But he still has bags of personality. He loves to eat green plants. If you bring home a
-                bouquet of flowers, no matter what high shelf you put them on, Bailey will scheme for hours
-                to work out a route to get at them.
+                MAP/categories
             </p>
         </div>
     </div>
 
 
-    <div class="row mb-5 cats" id="Hugo">
-        <div class="col-md-4">
-            <img class="img-fluid" src="images/hugo.jpg">
-        </div>
-        <div class="col-md-8">
+    <div class="row mb-5 things" id="Social">
+        
             <p>
-                At age ten, Hugo is a senior cat and the animal shelter in Chicago was afraid he wouldn't
-                get adopted. Luckily, he found a home with friends of ours, and has now moved with them
-                to France. Hugo loves fancy French cat food, and he will meow loudly for his breakfast
-                every morning.
+              CHAT/FORM
             </p>
-        </div>
+        
     </div>
 </div>
 </div>
